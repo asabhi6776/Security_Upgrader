@@ -31,7 +31,7 @@ elif [ $userinput -eq 2 ]; then
     echo "$(tput setaf 1) [2] CentOS"
     read -p "$(tput sgr0) Please select correct option: " useropt
     if [ $useropt -eq 1 ]; then
-         echo "I will add soon"
+         echo "I will add soon" #awk 'BEGIN{ start="0" } { if($0 ~ /Log started: 2021-09-25/) { start="1"} if ( start == "1" && $0 ~ /Unpacking.*over/) {gsub(/[\s\t)( ]+/,"",$5); printf("%s=%s ", $2 , $5)}}' /var/log/apt/term.log
     elif [ $useropt -eq 2 ]; then
          yum history undo last
     else
