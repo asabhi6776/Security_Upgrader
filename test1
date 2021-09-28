@@ -1,1 +1,0 @@
-awk 'BEGIN{ start="0" } { if($0 ~ /Log started: 2021-09-25/) { start="1"} if ( start == "1" && $0 ~ /Unpacking.*over/) {gsub(/[\s\t)( ]+/,"",$5); printf("%s=%s ", $2 , $5)}}' /var/log/apt/term.log
