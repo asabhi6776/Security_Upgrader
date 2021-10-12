@@ -4,7 +4,7 @@ This is Security patch upgrader. It's an automated shell script to upgrade the p
 ## usage
 To run this automated bash script please see following instruction.
 
-'''bash
+''' bash
 git clone 
 cd security patch upgrader
 chmod a+x update-rollback.sh
