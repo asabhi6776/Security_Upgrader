@@ -1,0 +1,1 @@
+CentOS-host ansible_host=172.16.0.105 ansible_ssh_user=root
