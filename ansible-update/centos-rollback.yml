@@ -1,0 +1,6 @@
+- hosts: CentOS
+  tasks:
+  - name: Execute a command using the shell module
+    become: true
+    become_user: root
+    shell:  yum history undo last

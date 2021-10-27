@@ -1,0 +1,6 @@
+- hosts: CentOS-host
+  tasks:
+  - name: Execute a command using the shell module
+    become: true
+    become_user: root
+    shell: yum -y update --security

@@ -1,0 +1,6 @@
+- hosts: Ubuntu-host
+  tasks:
+  - name: Execute a command using the shell module
+    become: true
+    become_user: root
+    shell: apt install unattanded-upgrades -y && unattanded-upgrade -d
