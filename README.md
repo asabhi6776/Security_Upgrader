@@ -18,7 +18,7 @@ Ansible playbook is in progress. Very soon we will push latest code.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[GPL] (https://www.gnu.org/licenses/)
+[MIT] (https://mit-license.org/)
 
 
 # Thanks
