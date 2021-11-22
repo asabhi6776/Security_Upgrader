@@ -5,7 +5,7 @@ This is Security patch upgrader. It's an automated shell script to upgrade the p
 To run this automated bash script please see following instruction.
 
 ```bash
-git clone 
+git clone https://gitlab.com/as_abhi6776/security-patch-shell.git
 cd security patch upgrader
 chmod a+x update-rollback.sh
 sudo ./update-rollback.sh
